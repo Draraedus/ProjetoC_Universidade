@@ -66,8 +66,6 @@ void menu(int i)
         system("cls");
         printf("Reiniciado com sucesso!");
         goto iniciar;//goto com rótulo no ínicio do menu.
-        case 'A': printf("vc");
-        break;
         default:
         printf("ERRO: Valor inválido, por favor digite novamente.\n"); //default pede para repetir o valor, foi usado um goto com o rótulo antes do scan.
         goto retornar; // aqui o goto sendo usado.
